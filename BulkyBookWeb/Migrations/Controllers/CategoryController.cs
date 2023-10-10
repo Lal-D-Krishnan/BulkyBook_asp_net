@@ -21,6 +21,7 @@ namespace BulkyBookWeb.Controllers
         //GET
         public IActionResult Create()
         {
+            System.Diagnostics.Debug.WriteLine("this route was hit just now");
             return View();
         }
 
